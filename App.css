@@ -1,0 +1,63 @@
+.App-container{
+display :flex;
+
+}
+.content{
+  width:5000px;
+}
+.sidebar{
+  min-height: 800px;
+}
+.post-card{
+  margin: 20px 50px;
+}
+.hashtag{
+  margin: 0px 4px;
+  
+}
+.Like{
+  margin : 25px 0px;
+}
+.Likes{
+  
+  background-color:rgb(230, 54, 54);
+  border-radius: 4px;
+  
+}
+.create-post{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:40px 20px 30px 20px;
+}
+.htmlForm-text{
+  margin:20px;
+}
+
+.htmlForm-label{
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(45deg,#DF8908 30.09%,#B415FF 106.90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+}
+.htmlForm-control{
+  margin-left: 40px;
+}
+.welcomemessage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background : linear-gradient(45deg,#DF6060 28.08% ,#B415FF 106.90% ) ;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.spinner{
+  color:#0b4397;
+  
+}
